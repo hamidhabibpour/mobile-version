@@ -1,9 +1,14 @@
 html {
   font-size: 16px;
 }
-@media screen and (min-width:400px) and (max-width:700px) and (orientation:landscape){
+@media screen and (min-width:400px) and (max-width:700px){
   body{
     background-color: lightgreen;
+  }
+}
+@media screen (orientation:landscape){
+  body{
+    background-color:red;
   }
 }
 body {
