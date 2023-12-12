@@ -1,10 +1,11 @@
 html {
   font-size: 16px;
 }
-@media screen and (min-width:768) {
-  background-color: lightblue;
+@media screen and (min-width:400px) and (max-width:700px){
+  body{
+    background-color: lightgreen;
+  }
 }
-
 body {
   margin: 0;
   padding: 0;
