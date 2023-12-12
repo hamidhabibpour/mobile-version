@@ -6,7 +6,7 @@ html {
     background-color: lightgreen;
   }
 }
-@media screen (orientation:landscape){
+@media screen and (orientation:landscape){
   body{
     background-color:red;
   }
