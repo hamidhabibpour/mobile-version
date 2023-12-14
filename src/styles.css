@@ -1,7 +1,65 @@
-html {
+/* Base styles extra small devices - mobile */
+/* CSS rulea */
+
+html{
+  font-size: 14px;
+}
+
+body{
+  font-size: 1rem;
+  padding:0;
+  margin: 0;
+  color:#444;
+  font-family: 'Roboto',sans-serif ;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 600;
+  font-family: 'Inter', sans-serif ;
+}
+
+h1{font-size: 2.5rem;}
+h2{font-size: 2rem;}
+h3{font-size: 1.75rem;}
+h4{font-size: 1.5rem;}
+h5{font-size: 1.75rem;}
+h6{font-size: 1rem;}
+
+a{
+  text-decoration: none;
+  color:#3882F6;
+}
+a:hover, a:focus{
+  color:#5979ec;
+}
+/* Small devices ( tablets ) */
+@media screen and (min-width:576px) {
+  /* CSS rules */
+  html{
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  html{
+    font-size: 18px;
+  }
+}
+@media screen and (min-width:992px){
+  html{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  html{
+    font-size: 22px;
+  }
+}
+
+/* html {
   font-size: 16px;
 }
-@media screen and (min-width:400px) and (max-width:700px){
+ @media screen and (min-width:400px) and (max-width:700px){
   body{
     background-color: lightgreen;
   }
@@ -10,7 +68,7 @@ html {
   body{
     background-color:red;
   }
-}
+} 
 body {
   margin: 0;
   padding: 0;
@@ -185,5 +243,5 @@ h3 {
 .copyright {
   color: #71717A;
   font-size: 0.875rem;
-}
+} */
 
