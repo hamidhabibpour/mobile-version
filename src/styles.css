@@ -31,115 +31,111 @@ a{
 a:hover, a:focus{
   color:#5979ec;
 }
+h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+#simple-logo{
+  display: none;
+}
+
+#banner{
+  object-fit:cover;
+
+  height: 150px;
+  width: 100%;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 8px;
+}
+#description {
+
+  font-size: 1.25rem;
+}
+#team{
+  width: 100%;
+}
+#team-image {
+  border-radius: 5px;
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
 /* Small devices ( tablets ) */
 @media screen and (min-width:576px) {
   /* CSS rules */
   html{
     font-size: 16px;
   }
+  #simple-logo{
+    display: block;
+  }
+  #banner{
+     height: 200px;
+  }
+  h1 {
+    margin: 12px 0;
 }
-
+}
+/* Medium devices (laptop) */
 @media screen and (min-width:768px) {
-  html{
+  html{ 
     font-size: 18px;
   }
+  #banner{
+    height: 200px;
+ }
+ h1 {
+  margin: 16px 0;
 }
-@media screen and (min-width:992px){
-  html{
-    font-size: 20px;
-  }
-}
-
-@media screen and (min-width:1200px) {
-  html{
-    font-size: 22px;
-  }
-}
-
-/* html {
-  font-size: 16px;
-}
- @media screen and (min-width:400px) and (max-width:700px){
-  body{
-    background-color: lightgreen;
-  }
-}
-@media screen and (orientation:landscape){
-  body{
-    background-color:red;
-  }
-} 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  color: #444444;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  color: #222222;
-
-}
-
-h1 { font-size: 2.5rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.75rem; }
-h4 { font-size: 1.5rem; }
-h5 { font-size: 1.25rem; }
-h6 { font-size: 1rem; }
-
-
-a {
-  text-decoration: none;
-  color: #3B82F6;
-}
-
-a:hover, a:focus {
-  color: #1D4ED8;
-}
-
-#navbar {
-  padding: 8px;
-  margin: 0;
-}
-
-#banner {
-  object-fit: cover;
-}
-
-
-h1 {
-    text-align: center;
-}
-
-#banner {
-   width: 100%; 
-}
-
-#about {
-  display: flex;
+#about{
   max-width: 800px;
-  margin: 0 auto;
-  padding: 8px;
+  flex-direction: row;
 }
-
 #description {
   width: 50%;
   padding-right: 8px;
   font-size: 1.25rem;
 }
-
 #team {
   width: 50%;
 }
 
-#team-image {
-  border-radius: 5px;
-  width: 100%;
+
 }
+
+/* large devices (Desktops) */
+@media screen and (min-width:992px){
+  html{
+    font-size: 20px;
+  }
+  #banner{
+    height: 250px;
+ }
+}
+
+/* Extra large TV */
+@media screen and (min-width:1200px) {
+  html{
+    font-size: 22px;
+  }
+  #banner{
+    height: 300px;
+ }
+}
+
+/*
+
+
+
+
+
 
 #jobs-table {
   width: 100%;
@@ -166,9 +162,7 @@ h1 {
 
 
 
-h2 {
-  text-align: center;
-}
+
 
 #application {
   max-width: 800px;
